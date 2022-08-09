@@ -42,37 +42,6 @@
   flex-direction: row;
 }
 
-.sidenav {
-  display: flex;
-  flex-direction: column;
-  width: 30vh;
-  margin-left: 2vh;
-  padding-top: 5vh;
-  border-right: solid 1px #E3E4E5;
-}
-
-.navitem {
-  padding: 1vh 2vh 1vh 2vh;
-  background-color: #ffffff;
-  color: #8A8A8A;
-  width: 100%;
-  border: 0;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  cursor:pointer;
-}
-
-.navitem:hover {
-  color: #0E8EF0;
-  font-weight: 600;
-}
-
-.navitem.selected {
-  color: #0E8EF0;
-  font-weight: 600;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -92,11 +61,28 @@
   border: solid 1px #E3E4E5;
 }
 
-.btn {
-  width: 100px;
-  height: 50px;
-  margin: 1vh 0 1vh 0;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
+.controls {
+  margin: 10px auto 10px auto;
+}
+
+.switch-icon-checked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 35px;
+  color: #0E8EF0;
+}
+
+.switch-icon-unchecked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-right: 35px;
+  color: #0E8EF0;
+}
+
+.react-switch-bg {
+  border: solid 1px #E3E4E5;
 }
